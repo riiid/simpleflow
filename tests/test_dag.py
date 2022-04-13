@@ -1,9 +1,9 @@
 import pytest
 from pydantic import BaseModel
 
-from simpleflow import dag
-from simpleflow.decorator import task
-from simpleflow.task import Node
+from ..decorator import dag
+from ..decorator import task
+from ..task import Node
 
 
 @task

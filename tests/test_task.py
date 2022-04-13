@@ -3,8 +3,8 @@ from typing import Dict
 
 from pydantic import BaseModel
 
-from simpleflow import Node
-from simpleflow.decorator import task
+from ..task import Node
+from ..decorator import task
 
 
 @task

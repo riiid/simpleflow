@@ -8,10 +8,10 @@ from typing import Optional
 import networkx as nx
 from pydantic import BaseModel
 
-from simpleflow.task import Node
-from simpleflow.task import NodeResult
-from simpleflow.task import TaskNode
-from simpleflow.utils import get_attribute
+from .task import Node
+from .task import NodeResult
+from .task import TaskNode
+from .utils import get_attribute
 
 
 class DAG:

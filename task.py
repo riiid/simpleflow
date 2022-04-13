@@ -18,7 +18,7 @@ from ddtrace import tracer
 
 
 if TYPE_CHECKING:
-    from simpleflow.dag import DAG
+    from dag import DAG
 
 NodeResult = TypeVar("NodeResult")
 

@@ -6,10 +6,10 @@ from typing import Union
 from typing import get_args
 from typing import get_type_hints
 
-from simpleflow.dag import DAG
-from simpleflow.task import Node
-from simpleflow.task import NodeResult
-from simpleflow.task import TaskNode
+from .dag import DAG
+from .task import Node
+from .task import NodeResult
+from .task import TaskNode
 
 
 def task(task_function):

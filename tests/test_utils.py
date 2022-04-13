@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from simpleflow.utils import get_attribute
+from ..utils import get_attribute
 
 
 class MyModel(BaseModel):
